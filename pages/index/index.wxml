@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view id="swiper">
+    <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <swiper-item><image src="../../imgs/swiper/12.jpg"></image></swiper-item>
+      <swiper-item><image src="../../imgs/swiper/12.jpg"></image></swiper-item>
+      <swiper-item><image src="../../imgs/swiper/12.jpg"></image></swiper-item>
+    </swiper>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
